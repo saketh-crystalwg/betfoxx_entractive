@@ -89,6 +89,6 @@ with pd.ExcelWriter(filename, engine='openpyxl') as writer:
 subject = sub
 body = f"Hi,\n\nAttached contains the list of customers part of Entractive campaigns for the {date_1} for Betfoxx. \n\nThanks,\nSaketh"
 sender = "sakethg250@gmail.com"
-recipients = ["sebastian@crystalwg.com","sakethg250@gmail.com","saketh@crystalwg.com"]
+recipients = ["sebastian@crystalwg.com","sakethg250@gmail.com","saketh@crystalwg.com","alin@crystalwg.com"]
 password = "xjyb jsdl buri ylqr"
 send_mail(sender, recipients, subject, body, "smtp.gmail.com", 465, sender, password, filename)
